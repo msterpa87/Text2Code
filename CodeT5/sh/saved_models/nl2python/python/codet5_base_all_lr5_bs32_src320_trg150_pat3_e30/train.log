@@ -1,84 +1,0 @@
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-2023-03-13 18:06:26.891837: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:26.892272: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-03/13/2023 18:06:29 - INFO - __main__ -   Namespace(task='nl2python', sub_task='python', lang='', eval_task='', model_type='codet5', add_lang_ids=False, data_num=-1, start_epoch=0, num_train_epochs=30, patience=3, cache_path='saved_models/nl2python/python/codet5_base_all_lr5_bs32_src320_trg150_pat3_e30/cache_data', summary_dir='tensorboard', data_dir='C:\\Users\\Uni\\Desktop\\Text2Code\\CodeT5/data', res_dir='saved_models/nl2python/python/codet5_base_all_lr5_bs32_src320_trg150_pat3_e30/prediction', res_fn='results/nl2python_codet5_base.txt', add_task_prefix=False, save_last_checkpoints=True, always_save_model=True, do_eval_bleu=True, model_name_or_path='Salesforce/codet5-base', output_dir='saved_models/nl2python/python/codet5_base_all_lr5_bs32_src320_trg150_pat3_e30', load_model_path=None, train_filename=None, dev_filename=None, test_filename=None, config_name='', tokenizer_name='Salesforce/codet5-base', max_source_length=320, max_target_length=150, do_train=True, do_eval=True, do_test=True, do_lower_case=False, no_cuda=False, train_batch_size=32, eval_batch_size=32, gradient_accumulation_steps=1, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, save_steps=-1, log_steps=-1, max_steps=-1, eval_steps=-1, train_steps=-1, warmup_steps=1000, local_rank=-1, seed=1234)
-03/13/2023 18:06:29 - WARNING - configs -   Process rank: -1, device: cpu, n_gpu: 0, distributed training: False, cpu count: 6
-03/13/2023 18:06:36 - INFO - models -   Finish loading model [223M] from Salesforce/codet5-base
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-03/13/2023 18:06:39 - INFO - utils -   Read 2241 examples, avg src len: 15, avg trg len: 53, max src len: 101, max trg len: 740
-03/13/2023 18:06:39 - INFO - utils -   [TOKENIZE] avg src len: 18, avg trg len: 193, max src len: 192, max trg len: 5901
-03/13/2023 18:06:39 - INFO - utils -   Create cache data into saved_models/nl2python/python/codet5_base_all_lr5_bs32_src320_trg150_pat3_e30/cache_data/train_all.pt
-  0%|          | 0/2241 [00:00<?, ?it/s]2023-03-13 18:06:41.285674: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:41.286597: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:41.504871: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:41.505469: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:41.811401: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:41.818540: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:41.966654: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:41.966875: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:41.995367: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:41.996129: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:42.901069: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:42.901251: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-  4%|4         | 94/2241 [00:09<03:33, 10.05it/s]  8%|8         | 188/2241 [00:09<01:26, 23.68it/s] 13%|#2        | 282/2241 [00:09<00:46, 41.87it/s] 17%|#6        | 376/2241 [00:09<00:28, 65.72it/s] 21%|##        | 470/2241 [00:10<00:18, 93.75it/s] 25%|##5       | 564/2241 [00:10<00:13, 125.66it/s] 29%|##9       | 658/2241 [00:10<00:09, 172.86it/s] 34%|###3      | 752/2241 [00:10<00:06, 228.63it/s] 38%|###7      | 846/2241 [00:10<00:04, 290.75it/s] 42%|####1     | 940/2241 [00:10<00:03, 367.44it/s] 46%|####6     | 1034/2241 [00:11<00:02, 410.51it/s] 50%|#####     | 1128/2241 [00:11<00:02, 482.97it/s] 63%|######2   | 1410/2241 [00:11<00:01, 756.39it/s] 67%|######7   | 1504/2241 [00:11<00:01, 658.45it/s] 80%|#######9  | 1786/2241 [00:11<00:00, 992.82it/s] 85%|########5 | 1907/2241 [00:11<00:00, 801.17it/s] 96%|#########6| 2162/2241 [00:12<00:00, 1053.73it/s]100%|##########| 2241/2241 [00:12<00:00, 184.85it/s] 
-03/13/2023 18:06:52 - INFO - __main__ -   ***** Running training *****
-03/13/2023 18:06:52 - INFO - __main__ -     Num examples = 2241
-03/13/2023 18:06:52 - INFO - __main__ -     Batch size = 32
-03/13/2023 18:06:52 - INFO - __main__ -     Batch num = 71
-03/13/2023 18:06:52 - INFO - __main__ -     Num epoch = 30
-Training:   0%|          | 0/71 [00:00<?, ?it/s]C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\_distributor_init.py:30: UserWarning: loaded more than 1 DLL from .libs:
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.EL2C6PLE4ZYW3ECEVIV3OXXGRN2NRFM2.gfortran-win_amd64.dll
-C:\Users\Marco\AppData\Local\Programs\Python\Python39\lib\site-packages\numpy\.libs\libopenblas.WCDJNK7YVMPZQ2ME2ZZHJJRJ3JIKNDB7.gfortran-win_amd64.dll
-  warnings.warn("loaded more than 1 DLL from .libs:"
-2023-03-13 18:06:55.004195: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:55.004413: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:55.123591: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:55.123806: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:55.124208: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:55.124378: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-2023-03-13 18:06:55.410112: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
-2023-03-13 18:06:55.410324: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
-Process SpawnPoolWorker-6:
-Process SpawnPoolWorker-2:
-Process SpawnPoolWorker-5:
-Process SpawnPoolWorker-4:
-Process SpawnPoolWorker-3:
-Process SpawnPoolWorker-1:

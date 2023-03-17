@@ -49,7 +49,7 @@ logger = logging.getLogger(__name__)
 def eval_ppl_epoch(args, eval_data, eval_examples, model, tokenizer):
     eval_sampler = SequentialSampler(eval_data)
     eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size,
-                                 num_workers=4, pin_memory=True)
+                                 num_workers=1, pin_memory=True)
     # Start evaluating model
     logger.info("  " + "***** Running ppl evaluation *****")
     logger.info("  Num examples = %d", len(eval_examples))

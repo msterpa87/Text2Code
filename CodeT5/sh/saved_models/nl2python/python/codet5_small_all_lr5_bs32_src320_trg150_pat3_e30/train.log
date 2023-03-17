@@ -1,0 +1,40 @@
+03/17/2023 13:19:58 - INFO - __main__ -   Namespace(task='nl2python', sub_task='python', lang='', eval_task='', model_type='codet5', add_lang_ids=False, data_num=-1, start_epoch=0, num_train_epochs=30, patience=3, cache_path='saved_models/nl2python/python/codet5_small_all_lr5_bs32_src320_trg150_pat3_e30/cache_data', summary_dir='tensorboard', data_dir='C:\\Users\\Uni\\Desktop\\Text2Code\\CodeT5/data', res_dir='saved_models/nl2python/python/codet5_small_all_lr5_bs32_src320_trg150_pat3_e30/prediction', res_fn='results/nl2python_codet5_small.txt', add_task_prefix=False, save_last_checkpoints=True, always_save_model=True, do_eval_bleu=True, model_name_or_path='Salesforce/codet5-small', output_dir='saved_models/nl2python/python/codet5_small_all_lr5_bs32_src320_trg150_pat3_e30', load_model_path=None, train_filename=None, dev_filename=None, test_filename=None, config_name='', tokenizer_name='Salesforce/codet5-small', max_source_length=320, max_target_length=150, do_train=True, do_eval=True, do_test=True, do_lower_case=False, no_cuda=False, train_batch_size=32, eval_batch_size=32, gradient_accumulation_steps=1, learning_rate=5e-05, beam_size=10, weight_decay=0.0, adam_epsilon=1e-08, max_grad_norm=1.0, save_steps=-1, log_steps=-1, max_steps=-1, eval_steps=-1, train_steps=-1, warmup_steps=1000, local_rank=-1, seed=1234)
+03/17/2023 13:19:58 - WARNING - configs -   Process rank: -1, device: cuda, n_gpu: 1, distributed training: False, cpu count: 6
+03/17/2023 13:20:01 - INFO - models -   Finish loading model [60M] from Salesforce/codet5-small
+03/17/2023 13:20:03 - INFO - utils -   Read 2241 examples, avg src len: 15, avg trg len: 53, max src len: 101, max trg len: 740
+03/17/2023 13:20:03 - INFO - utils -   [TOKENIZE] avg src len: 18, avg trg len: 193, max src len: 192, max trg len: 5901
+03/17/2023 13:20:03 - INFO - utils -   Load cache data from saved_models/nl2python/python/codet5_small_all_lr5_bs32_src320_trg150_pat3_e30/cache_data/train_all.pt
+C:\Users\Uni\miniconda3\lib\site-packages\transformers\optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+03/17/2023 13:20:03 - INFO - __main__ -   ***** Running training *****
+03/17/2023 13:20:03 - INFO - __main__ -     Num examples = 2241
+03/17/2023 13:20:03 - INFO - __main__ -     Batch size = 32
+03/17/2023 13:20:03 - INFO - __main__ -     Batch num = 71
+03/17/2023 13:20:03 - INFO - __main__ -     Num epoch = 30
+Training:   0%|          | 0/71 [00:00<?, ?it/s]Training:   0%|          | 0/71 [00:22<?, ?it/s]
+Traceback (most recent call last):
+  File "C:\Users\Uni\Desktop\Text2Code\CodeT5\run_gen.py", line 387, in <module>
+    main()
+  File "C:\Users\Uni\Desktop\Text2Code\CodeT5\run_gen.py", line 234, in main
+    outputs = model(input_ids=source_ids, attention_mask=source_mask,
+  File "C:\Users\Uni\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Uni\miniconda3\lib\site-packages\transformers\models\t5\modeling_t5.py", line 1626, in forward
+    encoder_outputs = self.encoder(
+  File "C:\Users\Uni\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Uni\miniconda3\lib\site-packages\transformers\models\t5\modeling_t5.py", line 1055, in forward
+    layer_outputs = layer_module(
+  File "C:\Users\Uni\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Uni\miniconda3\lib\site-packages\transformers\models\t5\modeling_t5.py", line 687, in forward
+    self_attention_outputs = self.layer[0](
+  File "C:\Users\Uni\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Uni\miniconda3\lib\site-packages\transformers\models\t5\modeling_t5.py", line 593, in forward
+    attention_output = self.SelfAttention(
+  File "C:\Users\Uni\miniconda3\lib\site-packages\torch\nn\modules\module.py", line 1190, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\Uni\miniconda3\lib\site-packages\transformers\models\t5\modeling_t5.py", line 523, in forward
+    scores = torch.matmul(
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 100.00 MiB (GPU 0; 6.00 GiB total capacity; 1.81 GiB already allocated; 2.74 GiB free; 1.83 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
